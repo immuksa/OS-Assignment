@@ -1,0 +1,14 @@
+#iclude<stdio.h>
+struct student
+{
+    int StudentId;
+    int FoodTakenTime;
+    int WaitingTime;
+    int TurnAroundTime;
+};
+
+void accept(struct student list[], int s);
+void display(struct student list[], int s);
+void scheduling(struct student list[], int s);
+void waitingTime(struct student list[], int n);
+void turnAroundTime(struct student list[], int n);
